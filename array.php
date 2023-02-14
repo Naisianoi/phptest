@@ -9,7 +9,6 @@ function arrayUnion($array1,$array2){
 
     //The array_diff() function compares the values of two (or more) arrays, and returns the differences.
     $difference = array_diff($array1,$array2);
-    echo "<pre>";
     print_r($difference);
 
 
